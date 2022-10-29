@@ -1,0 +1,23 @@
+base:
+  project: Advertising
+  random_state: 20
+  target_col: sales
+
+data_source:
+  s3_source: data_given/Advertising.csv
+
+load_data:
+  raw_dataset: data/raw/Advertising.csv
+
+split_data:
+  train_path: data/processed/train_Advertising.csv
+  test_path: data/processed/test_Advertising.csv
+
+Estimators:
+  LinearRegression:
+    params: 
+      alpha: 0.88
+      l1_ratio: 0.89
+
+
+model_dir: saved_model
