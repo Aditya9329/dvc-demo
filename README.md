@@ -26,3 +26,13 @@ add data so that dvc can track the data file
 dvc add data_given/Advertising.csv
 ```
 
+some commit using commands
+```bash
+git add . , git commit -m "message" , git push origin main
+```
+
+read about argparse module 
+```bash
+https://www.javatpoint.com/argparse-in-python
+```
+
